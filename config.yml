@@ -1,0 +1,11 @@
+product_column: Banking and credit cards
+weights:
+  volume_log_closed: 0.35
+  upheld_rate: 0.25
+  slow_within_3days: 0.15
+  slow_after3_within_timeframe: 0.15
+  backlog_ratio_capped: 0.1
+caps:
+  backlog_ratio_max: 2.0
+charts:
+  top_n: 15

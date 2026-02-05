@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "outcome-gap-score"
+version = "0.1.0"
+description = "Composite Outcome Gap Score from FCA complaints returns (proxy for Consumer Duty foreseeable harm)."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name="Pratham Kankariya"}]
+dependencies = [
+  "pandas>=2.0",
+  "numpy>=1.24",
+  "matplotlib>=3.7",
+  "openpyxl>=3.1",
+  "pyyaml>=6.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.scripts]
+outcome-gap = "outcome_gap.cli:main"
