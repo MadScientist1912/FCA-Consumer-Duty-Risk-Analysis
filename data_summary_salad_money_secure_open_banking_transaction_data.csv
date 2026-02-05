@@ -1,0 +1,13 @@
+Variable,type,num_values,num_unique_values,num_nulls,proportion_nulls,min_length,max_length,min,max,mean,median,stddev
+userId,integer,175553156,342199,0,0,,,,,,,
+gender,character,175553156,4,0,0,4,13,,,,,
+age,integer,175553156,58,0,0,,,18,75,37.38069848,36,9.358960046
+oa21,character,175553156,137988,0,0,0,9,,,,,
+transactionDate,IDate,175553156,363,0,0,,,14/01/2022,31/12/2022,,,
+saladMoneyCategory,character,175553156,162,0,0,4,47,,,,,
+saladMoneySubCategory,character,175553156,40,0,0,4,24,,,,,
+saladMoneyTransactionType,character,175553156,38,0,0,3,41,,,,,
+N_transactions,integer,175553156,339,0,0,,,1,1281,1.854055919,1,2.353429388
+amount,numeric,175553156,685373,0,0,,,,,0.156618,-11.37,649.3885897
+balanceMIN,numeric,175553156,1188104,0,0,,,,,157.2610306,6.51,2846.584993
+balanceMAX,numeric,175553156,1280300,0,0,,,,,465.200496,113.26,3152.987401
